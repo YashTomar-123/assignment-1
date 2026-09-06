@@ -1,0 +1,1 @@
+body{margin:0;font-family:Arial;text-align:center}header,nav,footer{padding:25px;background:#ddd}section{min-height:60vh;padding:50px;margin:0;border:4px solid white;background-attachment:fixed}.linear{background:linear-gradient(120deg,#d9e8ff,#fff)}.radial{background:radial-gradient(circle,#fff,#dce8f5)}h1{font-size:3rem;font-weight:700}h2{font-size:2rem}
