@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment 5 - CSS Questions 1-10</title>
+  <link rel="stylesheet" href="Assignment-5.css">
+</head>
+<body>
+  <div class="assignment5">
+    <h1>Assignment 5 - HTML &amp; CSS Questions 1-10</h1>
+    <p class="student-info">Yash Tomar | Roll No: 70 (AF3) | University Roll No: 24150018</p>
+
+    <!-- Question 1 -->
+    <section class="q q1" id="q1">
+      <header class="portfolio-header"><h2>Question 1 - Personal Portfolio</h2><nav><a href="#q1">Home</a><a href="#q1">About</a><a href="#q1">Contact</a></nav></header>
+      <main class="portfolio-main"><div><h3>Yash Tomar</h3><p>I am a student learning programming, web development, and modern software technologies.</p></div><img src="https://via.placeholder.com/240" alt="Profile placeholder for Yash Tomar"></main>
+      <footer>© 2026 Yash Tomar</footer>
+    </section>
+
+    <!-- Question 2 -->
+    <section class="q q2" id="q2">
+      <header><h2>Question 2 - About a City</h2></header><nav><a href="#q2">Home</a> <a href="#city-about">About</a> <a href="#city-culture">Culture</a></nav>
+      <main>
+        <section id="city-about" class="gradient-linear"><h3>Mathura</h3><p>Mathura is a historic city in Uttar Pradesh known for its cultural heritage and temples.</p></section>
+        <section id="city-culture" class="gradient-radial"><h3>Culture</h3><p>The city has a rich tradition of art, festivals, architecture, and local food.</p></section>
+        <section class="parallax-one"><h3>Places to Explore</h3><p>Visitors can explore historic sites, markets, temples, and nearby heritage destinations.</p></section>
+        <section class="parallax-two"><h3>Travel Notes</h3><p>Plan your visit, respect local customs, and keep the surroundings clean.</p></section>
+      </main><footer>© 2026 City Information</footer>
+    </section>
+
+    <!-- Question 3 -->
+    <section class="q q3" id="q3"><h2>Question 3 - Team Members</h2>
+      <div class="team-grid">
+        <article class="team-card"><h3>Yash Tomar</h3><h4>Team Lead</h4><p>Coordinates tasks and helps the team maintain project direction.</p></article>
+        <article class="team-card"><h3>Member One</h3><h4>Frontend Developer</h4><p>Builds accessible interfaces and responsive webpage layouts.</p></article>
+        <article class="team-card"><h3>Member Two</h3><h4>Backend Developer</h4><p>Works on application logic, APIs, and data management.</p></article>
+      </div>
+    </section>
+
+    <!-- Question 4 -->
+    <section class="q q4" id="q4"><h2>Question 4 - Long Article</h2>
+      <header><h3>Learning Web Development</h3><p>By Yash Tomar | September 7, 2026</p></header>
+      <article>
+        <p>Learning web development begins with understanding <mark>HTML</mark>, the language that gives a webpage its structure. Semantic elements make content easier to understand.</p>
+        <p>CSS controls presentation and helps developers create layouts that work across different screen sizes. Practice with small examples makes concepts easier to remember.</p>
+        <p>Responsive design is important because users access websites from phones, tablets, laptops, and larger displays. Flexible layouts help maintain usability.</p>
+        <p>Good code should be organized, readable, and accessible. Meaningful names, consistent spacing, and clear structure make projects easier to maintain.</p>
+        <p>Continuous practice develops confidence. Building small projects, testing them, and fixing mistakes creates a strong foundation for larger applications.</p>
+        <blockquote>Strong fundamentals make advanced development easier to learn.</blockquote>
+      </article>
+    </section>
+
+    <!-- Question 5 -->
+    <section class="q q5" id="q5"><h2>Question 5 - Pricing Table</h2>
+      <div class="pricing-grid">
+        <article class="plan"><h3>Basic</h3><ul><li>5 Projects</li><li>Email Support</li><li>Basic Analytics</li></ul><p class="price">₹499/month</p><a href="#q5">Choose Basic</a></article>
+        <article class="plan popular"><h3>Standard</h3><ul><li>20 Projects</li><li>Priority Support</li><li>Advanced Analytics</li></ul><p class="price">₹999/month</p><a href="#q5">Choose Standard</a></article>
+        <article class="plan"><h3>Premium</h3><ul><li>Unlimited Projects</li><li>Premium Support</li><li>Complete Analytics</li></ul><p class="price">₹1499/month</p><a href="#q5">Choose Premium</a></article>
+      </div>
+    </section>
+
+    <!-- Question 6 -->
+    <section class="q q6" id="q6"><h2>Question 6 - CSS Photo Gallery</h2>
+      <div class="gallery">
+        <figure><img src="https://picsum.photos/id/1015/500/350" alt="Mountain landscape"><figcaption>Mountain Landscape</figcaption></figure>
+        <figure><img src="https://picsum.photos/id/1016/500/350" alt="Forest landscape"><figcaption>Forest</figcaption></figure>
+        <figure><img src="https://picsum.photos/id/1018/500/350" alt="Nature scene"><figcaption>Nature</figcaption></figure>
+        <figure><img src="https://picsum.photos/id/1020/500/350" alt="Rocky landscape"><figcaption>Rocky Valley</figcaption></figure>
+        <figure><img src="https://picsum.photos/id/1024/500/350" alt="Animal photograph"><figcaption>Wildlife</figcaption></figure>
+        <figure><img src="https://picsum.photos/id/1035/500/350" alt="Coastal landscape"><figcaption>Coast</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- Question 7 -->
+    <section class="q q7" id="q7"><h2>Question 7 - Contact Form</h2>
+      <form class="contact-form"><label for="cname">Name</label><input id="cname" type="text" placeholder="Your name"><label for="cemail">Email</label><input id="cemail" type="email" placeholder="you@example.com"><label for="subject">Subject</label><input id="subject" type="text" placeholder="Subject"><label for="message">Message</label><textarea id="message" rows="6" placeholder="Write your message"></textarea><button type="submit">Send Message</button></form>
+    </section>
+
+    <!-- Question 8 -->
+    <section class="q q8" id="q8"><header class="dashboard-header"><h2>Question 8 - Dashboard</h2></header><div class="dashboard-layout"><aside><nav><a href="#q8">Dashboard</a><a href="#q8">Reports</a><a href="#q8">Settings</a></nav></aside><main><div class="dashboard-box"><h3>Overview</h3><p>Welcome to the dashboard. This box contains summary information.</p></div><div class="dashboard-box"><h3>Activity</h3><p>Recent activity and project progress can be displayed here.</p></div></main></div></section>
+
+    <!-- Question 9 -->
+    <section class="q q9" id="q9"><h2>Question 9 - Newspaper Layout</h2><div class="newspaper"><h3>Technology Weekly</h3><p><img src="https://picsum.photos/id/180/300/200" alt="Technology themed image">Modern technology is changing the way people learn, communicate, and create. Digital tools make information easier to access while also creating new opportunities for collaboration.</p><p>Web development continues to evolve with semantic HTML, responsive CSS, and accessible design practices. Developers combine these fundamentals to create useful experiences across devices.</p><p>Learning technology requires curiosity and consistent practice. Small experiments help learners understand how different concepts work together in a complete project.</p><p>Good interfaces are not only attractive; they are readable, responsive, and easy to navigate. Accessibility should be considered throughout the design process.</p><p>As technology develops, strong fundamentals remain valuable. Understanding structure, layout, and user needs provides a foundation for learning advanced tools.</p></div></section>
+
+    <!-- Question 10 -->
+    <section class="q q10" id="q10"><header class="sticky-site-header"><h2>Question 10 - Complete CSS Layout</h2><nav><a href="#hero">Home</a><a href="#about10">About</a><a href="#services10">Services</a><a href="#contact10">Contact</a></nav></header><div id="hero" class="hero"><div><h3>Welcome to My Website</h3><p>A complete responsive layout demonstrating CSS positioning and box model concepts.</p></div></div><section id="about10" class="about10"><div><h3>About</h3><p>This section uses two columns to present information beside an image.</p></div><img src="https://via.placeholder.com/420x260" alt="About section placeholder image"></section><section id="services10" class="services10"><h3>Services</h3><div><article><h4>Web Design</h4><p>Clean and responsive page layouts.</p></article><article><h4>Development</h4><p>Structured front-end development.</p></article><article><h4>Learning Support</h4><p>Practice projects and documentation.</p></article></div></section><section id="contact10" class="contact10"><h3>Contact</h3><form><input type="text" placeholder="Name"><input type="email" placeholder="Email"><textarea placeholder="Message"></textarea><button type="submit">Submit</button></form></section><footer>© 2026 Yash Tomar</footer></section>
+  </div>
+</body>
+</html>
