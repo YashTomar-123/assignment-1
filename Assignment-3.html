@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 3 - HTML Questions 1-15</title>
+</head>
+<body>
+  <h1>Assignment 3 - HTML Practice</h1>
+  <p><strong>Student:</strong> Yash Tomar | <strong>Roll No:</strong> 70 (AF3) | <strong>University Roll No:</strong> 24150018</p>
+  <hr>
+
+  <!-- Question 1: Resume -->
+  <section><h2>Question 1 - Resume</h2>
+    <header><h1>Yash Tomar</h1><p>Email: yash@example.com | Student</p></header>
+    <nav><a href="#about">About</a> | <a href="#skills">Skills</a> | <a href="#projects">Projects</a> | <a href="#education">Education</a></nav>
+    <main>
+      <section id="about"><h2>About Me</h2><p>I am a computer science student interested in programming and web development.</p></section>
+      <section id="skills"><h2>Skills</h2><ul><li>HTML</li><li>CSS</li><li>Java</li><li>Python</li></ul></section>
+      <section id="projects"><h2>Projects</h2><ol><li>Personal Portfolio</li><li>Student Management System</li><li>Web Development Practice</li></ol></section>
+      <section id="education"><h2>Education</h2><table border="1"><tr><th>Course</th><th>Institute</th><th>Year</th></tr><tr><td>B.Tech</td><td>University</td><td>2024-2028</td></tr><tr><td>Senior Secondary</td><td>School</td><td>2024</td></tr></table></section>
+    </main>
+    <footer>© 2026 Yash Tomar</footer>
+  </section>
+
+  <!-- Question 2: Product Catalog -->
+  <section><h2>Question 2 - Product Catalog</h2>
+    <table border="1">
+      <caption>Online Store Product Catalog</caption>
+      <tr><th>Product Name</th><th>Description</th><th>Price</th><th>Availability</th></tr>
+      <tr><td><img src="https://via.placeholder.com/100" alt="Laptop product image" width="100"><br>Laptop</td><td>Portable computer for study and work.</td><td>₹55,000</td><td>In Stock</td></tr>
+      <tr><td><img src="https://via.placeholder.com/100" alt="Headphones product image" width="100"><br>Headphones</td><td>Wireless headphones for music and calls.</td><td>₹2,500</td><td>In Stock</td></tr>
+      <tr><td colspan="2">Featured product offer</td><td>₹1,999</td><td>Limited</td></tr>
+    </table>
+  </section>
+
+  <!-- Question 3: Course Registration -->
+  <section><h2>Question 3 - Course Registration</h2>
+    <form>
+      <fieldset><legend>Student Registration</legend>
+        <label for="name">Name:</label> <input id="name" name="name" type="text"><br><br>
+        <label for="email">Email:</label> <input id="email" name="email" type="email"><br><br>
+        <label for="course">Course:</label>
+        <select id="course" name="course"><option>Web Development</option><option>Java Programming</option><option>Python</option></select><br><br>
+        <button type="submit">Register</button>
+      </fieldset>
+    </form>
+    <table border="1"><caption>Available Course Schedules</caption><tr><th>Day</th><th>Time</th><th>Instructor</th></tr><tr><td>Monday</td><td>10:00 AM</td><td>Mr. Sharma</td></tr><tr><td>Wednesday</td><td>2:00 PM</td><td>Ms. Gupta</td></tr></table>
+  </section>
+
+  <!-- Question 4: Company Layout -->
+  <section><h2>Question 4 - Company Layout</h2>
+    <header><h1>TechNova Solutions</h1></header>
+    <nav><a href="#">Home</a> | <a href="#">Services</a> | <a href="#">Contact</a></nav>
+    <main>
+      <section><h2>About the Company</h2><p>TechNova Solutions develops practical software and digital solutions for modern businesses.</p></section>
+      <section><h2>Services</h2><ul><li>Web Development</li><li>Software Development</li><li>Cloud Solutions</li></ul></section>
+    </main>
+    <aside><blockquote>We build technology that solves real problems.</blockquote><cite>CEO, TechNova Solutions</cite></aside>
+    <footer>Email: contact@technova.example | Address: Mathura, Uttar Pradesh</footer>
+  </section>
+
+  <!-- Question 5: Nested List -->
+  <section><h2>Question 5 - University Hierarchy</h2>
+    <ul><li>University
+      <ul><li>Computer Science Department
+        <ol><li>Web Development<ul><li>HTML</li><li>CSS</li></ul></li><li>Programming<ul><li>Java</li><li>Python</li></ul></li></ol>
+      </li><li>Mechanical Department
+        <ol><li>Thermodynamics<ul><li>Heat</li><li>Energy</li></ul></li><li>Mechanics<ul><li>Motion</li><li>Force</li></ul></li></ol>
+      </li></ul>
+    </li></ul>
+  </section>
+
+  <!-- Question 6: Restaurant Menu -->
+  <section><h2>Question 6 - Restaurant Menu</h2>
+    <header><h1>Spice Garden</h1></header>
+    <nav><a href="#starters">Starters</a> | <a href="#main">Main Course</a> | <a href="#desserts">Desserts</a></nav>
+    <section id="starters"><h2>Starters</h2><table border="1"><tr><th>Dish Name</th><th>Description</th><th>Price</th></tr><tr><td>Paneer Tikka</td><td>Grilled paneer with spices.</td><td>₹220</td></tr><tr><td>Spring Rolls</td><td>Crispy vegetable rolls.</td><td>₹180</td></tr></table></section>
+    <section id="main"><h2>Main Course</h2><table border="1"><tr><th>Dish Name</th><th>Description</th><th>Price</th></tr><tr><td>Paneer Butter Masala</td><td>Paneer in creamy tomato gravy.</td><td>₹280</td></tr><tr><td>Veg Biryani</td><td>Fragrant rice with vegetables.</td><td>₹240</td></tr></table></section>
+    <section id="desserts"><h2>Desserts</h2><table border="1"><tr><th>Dish Name</th><th>Description</th><th>Price</th></tr><tr><td>Gulab Jamun</td><td>Soft sweet dumplings.</td><td>₹100</td></tr><tr><td>Ice Cream</td><td>Two scoops of assorted flavor.</td><td>₹120</td></tr></table></section>
+    <footer>Contact: +91-00000-00000 | Mathura, Uttar Pradesh</footer>
+  </section>
+
+  <!-- Question 7: Conference Schedule -->
+  <section><h2>Question 7 - Conference Schedule</h2>
+    <table border="1"><caption>Technology Conference Schedule</caption><thead><tr><th>Session</th><th>Time</th><th>Topic</th><th>Speaker</th></tr></thead><tbody><tr><td>Morning</td><td>9:00 AM</td><td>Web Development</td><td>Dr. Kumar</td></tr><tr><td>Afternoon</td><td>1:00 PM</td><td>Artificial Intelligence</td><td>Ms. Singh</td></tr><tr><td>Evening</td><td>5:00 PM</td><td>Cloud Computing</td><td>Mr. Verma</td></tr></tbody><tfoot><tr><td colspan="4">End of schedule</td></tr></tfoot></table>
+  </section>
+
+  <!-- Question 8: Student Report -->
+  <section><h2>Question 8 - Student Report</h2>
+    <h1>ABC Senior Secondary School</h1>
+    <table border="1" title="Student marks report"><tr><th rowspan="2">Student</th><th colspan="5">Subjects</th></tr><tr><th>English</th><th>Maths</th><th>Science</th><th>Computer</th><th>Social Science</th></tr><tr><td>Yash Tomar</td><td>85</td><td>90</td><td>88</td><td>95</td><td>82</td></tr><tr><td colspan="3">Total</td><td colspan="3">440</td></tr><tr><td colspan="3">Percentage</td><td colspan="3">88%</td></tr></table>
+  </section>
+
+  <!-- Question 9: Travel Destinations -->
+  <section><h2>Question 9 - Top 3 Travel Destinations</h2>
+    <header><h1>Top 3 Travel Destinations</h1></header>
+    <main>
+      <article><h2>Agra</h2><img src="https://via.placeholder.com/300x150" alt="Agra travel destination"><p>Agra is famous for its historical architecture and the Taj Mahal.</p><blockquote>A memorable place filled with history.</blockquote></article>
+      <article><h2>Jaipur</h2><img src="https://via.placeholder.com/300x150" alt="Jaipur travel destination"><p>Jaipur is known for forts, palaces, and colorful markets.</p><blockquote>A beautiful blend of heritage and culture.</blockquote></article>
+      <article><h2>Goa</h2><img src="https://via.placeholder.com/300x150" alt="Goa travel destination"><p>Goa is known for beaches, scenery, and relaxed tourism.</p><blockquote>A refreshing destination for a break.</blockquote></article>
+    </main>
+    <aside><h2>Travel Tips</h2><ul><li>Plan your route in advance.</li><li>Carry essential documents.</li><li>Respect local culture.</li></ul></aside>
+    <footer>© 2026 Travel Guide</footer>
+  </section>
+
+  <!-- Question 10: Dropdown Selection -->
+  <section><h2>Question 10 - Dropdown Selection</h2>
+    <form>
+      <label>Country: <select><option selected>India</option><option>Japan</option><option>France</option></select></label><br><br>
+      <label>State: <select><option selected>Uttar Pradesh</option><option>Rajasthan</option><option>Goa</option></select></label><br><br>
+      <label>City: <select><option selected>Mathura</option><option>Agra</option><option>Jaipur</option></select></label><br><br>
+      <label>Favorite Tourist Place: <select><option selected>Taj Mahal</option><option>Vrindavan</option><option>Amber Fort</option></select></label>
+    </form>
+    <p>My choices are India, Uttar Pradesh, Mathura, and the Taj Mahal as my favorite tourist place.</p>
+  </section>
+
+  <!-- Question 11: News Layout -->
+  <section><h2>Question 11 - News Layout</h2>
+    <header><h1>Daily Tech News</h1></header>
+    <nav><a href="#">Sports</a> | <a href="#">Technology</a> | <a href="#">Politics</a></nav>
+    <main>
+      <article><h2>Students Explore Modern Web Development</h2><time datetime="2026-09-07">September 7, 2026</time><p>Students are learning semantic HTML and responsive web development.</p><a href="#">Source</a></article>
+      <article><h2>New Ideas in Technology</h2><time datetime="2026-09-06">September 6, 2026</time><p>Technology education continues to introduce new tools and development practices.</p><a href="#">Source</a></article>
+      <article><h2>Campus Technology Event Announced</h2><time datetime="2026-09-05">September 5, 2026</time><p>A technology-focused event will showcase student projects and ideas.</p><a href="#">Source</a></article>
+    </main>
+    <aside><h3>Popular Topics</h3><ul><li>AI</li><li>Web Development</li><li>Cloud Computing</li></ul></aside>
+    <footer>Contact: news@example.com | All rights reserved.</footer>
+  </section>
+
+  <!-- Question 12: Quotations -->
+  <section><h2>Question 12 - Quotation Showcase</h2>
+    <section><h2>Learning</h2><blockquote>Education is the most powerful tool for change.</blockquote><cite>Nelson Mandela</cite></section>
+    <section><h2>Success</h2><blockquote>Success grows from persistent effort.</blockquote><cite>General wisdom</cite></section>
+    <section><h2>Creativity</h2><blockquote>Imagination opens the door to new possibilities.</blockquote><cite>Creative principle</cite></section>
+    <p>Quotes inspire people by presenting memorable ideas that encourage learning, persistence, and positive action.</p>
+  </section>
+
+  <!-- Question 13: Blog -->
+  <section><h2>Question 13 - Blog Layout</h2>
+    <header><h1>Yash's Learning Blog</h1></header>
+    <nav><a href="#">Home</a> | <a href="#">Blogs</a> | <a href="#">About</a></nav>
+    <main>
+      <article><h2>My First Blog</h2><time datetime="2026-09-07">September 7, 2026</time><p>My first blog describes my journey of learning HTML and understanding semantic page structure.</p><blockquote>Practice turns concepts into skills.</blockquote></article>
+      <article><h2>Things I Learned This Week</h2><time datetime="2026-09-06">September 6, 2026</time><p>This week I practiced tables, forms, lists, semantic elements, and accessible HTML attributes.</p><blockquote>Small improvements create strong foundations.</blockquote></article>
+    </main>
+    <footer>Written by Yash Tomar</footer>
+  </section>
+
+  <!-- Question 14: Movie Database -->
+  <section><h2>Question 14 - Movie Database</h2>
+    <table border="1" title="Movie database"><caption>Movie Database</caption><tr><th>Movie Name</th><th>Genre</th><th>Year</th><th>IMDB Rating</th><th>Link</th></tr><tr><td>Inception</td><td>Science Fiction</td><td>2010</td><td>8.8</td><td><a href="#">View</a></td></tr><tr><td>Interstellar</td><td>Science Fiction</td><td>2014</td><td>8.7</td><td><a href="#">View</a></td></tr><tr><td colspan="5">More movies can be added to the database.</td></tr></table>
+    <p><small>Note: Ratings are included for demonstration of the table structure.</small></p>
+  </section>
+
+  <!-- Question 15: Portfolio -->
+  <section><h2>Question 15 - Portfolio</h2>
+    <header><h1>Yash Tomar</h1><p>Student and Aspiring Developer</p></header>
+    <nav><a href="#about15">About</a> | <a href="#skills15">Skills</a> | <a href="#projects15">Projects</a></nav>
+    <main>
+      <section id="about15"><h2>About Me</h2><p>I am a student developing skills in programming and web technologies.</p><blockquote>Build, learn, improve.</blockquote></section>
+      <section id="skills15"><h2>Skills</h2><ul><li>HTML</li><li>CSS</li><li>Java</li><li>Python</li><li>Git and GitHub</li></ul></section>
+      <section id="projects15"><h2>Projects</h2><ol><li>Personal Portfolio Website</li><li>Web Development Assignments</li><li>Programming Practice Projects</li></ol></section>
+    </main>
+    <aside><h2>Contact Info</h2><p>Email: yash@example.com</p><p>Phone: +91-00000-00000</p><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a></aside>
+    <footer>© 2026 Yash Tomar - Portfolio</footer>
+  </section>
+</body>
+</html>
