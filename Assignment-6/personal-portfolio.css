@@ -1,0 +1,3 @@
+@import url('common.css');
+/* Flexbox aligns header and main content; mobile stacks everything. */
+body{min-height:100vh;display:flex;flex-direction:column}header{display:flex;align-items:center;justify-content:space-between;padding:20px;background:#172a3a;color:white}nav{display:flex;gap:18px}main{flex:1;display:flex;align-items:center;justify-content:center;gap:40px;padding:40px}main>section{flex:1;max-width:600px}.image img{width:100%;border-radius:14px}footer{text-align:center;padding:18px}@media(max-width:700px){header,main{flex-direction:column;text-align:center}nav{flex-wrap:wrap;justify-content:center}main{padding:24px}}

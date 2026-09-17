@@ -1,0 +1,2 @@
+/* Desktop 4 columns, tablet 2, mobile 1. */
+main{display:flex;flex-wrap:wrap;gap:20px;padding:30px}article{flex:1 1 calc(25% - 20px);padding:55px 20px;text-align:center;background:#dbeafe;border-radius:12px;transition:.3s}article:hover{background:#bbf7d0}@media(max-width:900px){article{flex-basis:calc(50% - 20px)}}@media(max-width:600px){article{flex-basis:100%}}

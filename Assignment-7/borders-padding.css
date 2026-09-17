@@ -1,0 +1,2 @@
+/* Border styles, padding and rounded corners demonstration. */
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center}.solid,.dash,.double,.groove{padding:30px;border-radius:16px;margin:10px;background:#f5f8fb;transition:border-color .3s}.solid{border:4px solid #243b53}.dash{border:4px dashed #356}.double{border:6px double #789}.groove{border:6px groove #9ab}.solid:hover,.dash:hover,.double:hover,.groove:hover{border-color:#e63946}

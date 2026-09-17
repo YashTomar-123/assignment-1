@@ -1,0 +1,2 @@
+/* Grid cheat sheet: 2–3 columns on large screens, stacked on small screens. */
+main{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;padding:30px}article{padding:25px;background:white;border:1px solid #ccd5e0;border-radius:12px;transition:.3s}article:hover{transform:translateY(-5px);box-shadow:0 10px 20px #0002}@media(max-width:900px){main{grid-template-columns:repeat(2,1fr)}}@media(max-width:700px){main{grid-template-columns:1fr}article{display:flex;gap:15px;align-items:baseline}article h2{min-width:120px}}body{font-family:Arial;background:#f2f5f9}

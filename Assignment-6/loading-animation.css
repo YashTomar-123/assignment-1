@@ -1,0 +1,2 @@
+/* Three div circles move infinitely with staggered delays. */
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#172a3a}main{display:flex;gap:12px}main div{width:18px;height:18px;border-radius:50%;background:#fff;animation:bounce .8s infinite alternate}main div:nth-child(2){animation-delay:.2s}main div:nth-child(3){animation-delay:.4s}@keyframes bounce{to{transform:translateY(-28px)}}

@@ -1,0 +1,2 @@
+/* Each box demonstrates one CSS transformation on hover. */
+main{min-height:100vh;display:flex;align-items:center;justify-content:center;gap:25px;flex-wrap:wrap}main div{width:140px;height:100px;display:grid;place-items:center;background:#dbeafe;transition:all .4s ease}main div:nth-child(1):hover{transform:rotate(12deg)}main div:nth-child(2):hover{transform:scale(1.2)}main div:nth-child(3):hover{transform:translate(20px,-10px)}main div:nth-child(4):hover{transform:skew(12deg)}

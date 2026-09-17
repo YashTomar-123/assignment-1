@@ -1,0 +1,3 @@
+@import url('common.css');
+/* Flex cards fade in and rise on hover. */
+main{min-height:100vh;padding:30px;text-align:center}main>section{display:flex;justify-content:center;align-items:center;gap:24px}.pricing{}article{width:260px;padding:35px;background:white;border-radius:14px;box-shadow:0 5px 14px #0002;animation:fade .8s;transition:.3s}article:hover{transform:translateY(-10px)}.featured{transform:scale(1.06);background:#d9ecff}@keyframes fade{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}@media(max-width:750px){main>section{flex-direction:column}.featured{transform:none}}

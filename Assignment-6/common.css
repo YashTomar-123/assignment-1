@@ -1,0 +1,2 @@
+/* Shared styling for Assignment 6. */
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}img{max-width:100%;display:block}a{color:inherit}.page{min-height:100vh;padding:24px}.grid{display:grid;gap:20px}.flex{display:flex;gap:20px}.card{background:white;border:1px solid #d9e0ea;border-radius:12px;padding:20px;box-shadow:0 4px 12px #0001}.btn{display:inline-block;padding:10px 16px;border-radius:8px;background:#243b53;color:white;text-decoration:none}

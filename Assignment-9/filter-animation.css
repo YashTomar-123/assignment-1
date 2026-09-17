@@ -1,0 +1,2 @@
+/* Filtered profile images, hover lift and page-load fade-in. */
+main{display:flex;gap:22px;justify-content:center;padding:50px;animation:fade .8s}article{background:white;padding:20px;text-align:center;border-radius:14px;transition:.3s}article img{width:180px;height:180px;object-fit:cover;filter:grayscale(1);border-radius:50%;transition:.3s}article:hover{transform:translateY(-10px)}article:hover img{filter:none}@keyframes fade{from{opacity:0}}@media(max-width:800px){main{flex-direction:column;align-items:center}}

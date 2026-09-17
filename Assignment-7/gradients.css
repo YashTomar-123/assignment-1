@@ -1,0 +1,2 @@
+/* Linear, radial and fixed attachment examples. */
+body{margin:0;font-family:Arial}header,footer{position:fixed;left:0;right:0;text-align:center;padding:15px;background:#172a3a;color:white;z-index:2}header{top:0}footer{bottom:0}main{padding-top:55px}section{min-height:45vh;display:grid;place-items:center;text-align:center;font-size:1.2rem}section:first-child{background:linear-gradient(120deg,#dbeafe,#bfdbfe);background-attachment:fixed}section:last-child{background:radial-gradient(circle,#fff7ed,#fed7aa)}
